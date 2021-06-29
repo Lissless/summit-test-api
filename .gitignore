@@ -1,0 +1,10 @@
+# IDE - VSCode
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+
+# ENV - Not the app
+env/*
+env/Lib/site-packages/*
+!env/app.py
+
