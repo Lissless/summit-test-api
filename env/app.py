@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 #Configuration for root User
 
-app.config['MONGO_URI'] = 'mongodb+srv://AlisaleeAaron:Pokebolt9898@testbox.yqkcy.mongodb.net/TestData?retryWrites=true&w=majority'
+app.config['MONGO_URI'] = 'mongodb+srv://<username>:<password>@testbox.yqkcy.mongodb.net/TestData?retryWrites=true&w=majority'
 app.config['MONGO_DBNAME'] = 'TestData'
 
 #Solves the CORS  No 'Access-Control-Allow-Origin' header is present problem
